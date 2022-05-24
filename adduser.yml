@@ -1,0 +1,4 @@
+- name: add user
+  user: name=hieunm
+        state=present
+        groups="wheel"
